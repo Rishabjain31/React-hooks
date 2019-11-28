@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ThemeContext from '../use-context/index';
 import C from '../nested-component/index';
 
-function Example() {
+const Example = () => {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState({ text : 'First todo'});
